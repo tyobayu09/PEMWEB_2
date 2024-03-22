@@ -1,0 +1,42 @@
+CRITICAL - 2024-03-21 03:37:09 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\pages.php(9): view('home')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\pages->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2024-03-21 03:42:40 --> ErrorException: Undefined variable $tes
+in APPPATH\Views\pages\home.php on line 9.
+ 1 APPPATH\Views\pages\home.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tes', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\pages\\home.php', 9)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\pages.php(12): view('pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2024-03-21 03:53:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page/about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page/about.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('page/about', [], true)
+ 3 APPPATH\Controllers\page.php(21): view('page/about', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Page->about()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')
+CRITICAL - 2024-03-21 03:53:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page/home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page/home.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('page/home', [], true)
+ 3 APPPATH\Controllers\page.php(13): view('page/home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Page->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4\\public\\index.php')

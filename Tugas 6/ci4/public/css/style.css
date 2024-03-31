@@ -1,0 +1,7 @@
+.sampul{
+    widht: 100px;
+}
+
+.table > tbody > tr > * {
+    vertical-align: middle;
+}
